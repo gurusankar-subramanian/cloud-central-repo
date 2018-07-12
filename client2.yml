@@ -15,4 +15,5 @@ eureka:
     instance:
        hostname: localhost
 
-testValue: test again
+client2:
+    testValue: test1
