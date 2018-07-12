@@ -1,0 +1,15 @@
+spring:
+   application:
+     name: main-server
+
+server:
+       port: 1000
+
+eureka:
+  client:
+      registerWithEureka: false
+      fetchRegistry: false
+      service-url:
+            defaultZone: http://localhost:1000/eureka
+  server:
+      waitTimeInMsWhenSyncEmpty: 0
