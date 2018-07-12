@@ -15,3 +15,4 @@ eureka:
     instance:
        hostname: localhost
 
+testValue: test data 
