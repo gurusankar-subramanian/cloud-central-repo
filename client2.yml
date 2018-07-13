@@ -16,4 +16,4 @@ eureka:
        hostname: localhost
 
 client2:
-    testValue: test1
+    testValue: client 2 updated
